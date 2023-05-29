@@ -1,39 +1,31 @@
-## Clase 2 ¿Qué son las pruebas y por qué deberíamos hacerlas?
+[🔙 << Clase 1](../01_Class_Introduction/01_Introduction.md) | [Clase 3 >>](../03_Class/03_Class.md)
 
-¿Cuántas veces hemos sido usuarios de alguna app móvil y falla? ¿Cuántas veces hemos sido parte del desarrollo de un producto y el retrabajo se desborda por todas las fallas o defectos que contiene?.
+[🔙 Volver](../README.md)
 
-Muchas veces la mala experiencia que tiene el usuario hace que en ese momento se deje de usar un software, app o elemento que tenga que ver directamente con experiencia como usuario 
+# Clase 2: ¿Qué son las pruebas y por qué deberíamos hacerlas?
+
+¿Cuántas veces hemos sido usuarios de alguna app móvil y ha fallado? ¿Cuántas veces hemos estado involucrados en el desarrollo de un producto y hemos experimentado retrabajo debido a las fallas o defectos que contiene?
+
+Muchas veces, una mala experiencia del usuario con un software, una aplicación o un producto puede hacer que deje de utilizarse.
 
 ### ¿Qué son las pruebas?
 
-Es el proceso de evaluar un producto, aprendiendo a través de la exploración  experimentación, lo cual incluye:
+Las pruebas son el proceso de evaluar un producto a través de la exploración y la experimentación. Esto implica cuestionar, estudiar, modelar, observar, inferir, verificar la salida de datos, entre otros aspectos.
 
-Cuestionar, estudiar, modelar, observar e inferir, checar salida de datos, etc.
+Es importante entender completamente el producto que estás desarrollando para evitar que los defectos y errores se conviertan en retrabajo y se multipliquen como una bola de nieve. Las pruebas te permiten explorar, experimentar y comprender el producto. Puedes realizar pruebas por cuestiones de costo, prestigio o requisitos legales.
 
-Verlo y entenderlo en todos sus aspectos
+![assets/img1.png](../assets/img1.png)
 
-![assets/img1.png](assets/img1.png)
+Siempre existe un cierto grado de incertidumbre y la posibilidad de que se produzcan errores, incluso en un porcentaje muy bajo, especialmente con la implementación de nuevas tecnologías. Por lo tanto, es necesario actualizar y optimizar las pruebas en algún momento.
 
-Realmente siempre existe un sesgo en el cual tendremos la posibilidad a si sea del 0.001% de tener un error, con la implementacion de nuevas tecnologias es muy posible que suceda esto por lo que sera necesario en algun momento recurrir a la actualizacion y optimizacion de las pruebas 
-
-Las pruebas son una manera de explorar, experimentar, entenderlo, entre menos entiendas el productos que estas desarrollando más errores tendrá. Las puedes hacer por cuestión de costo, prestigio o cuestiones legales.
-
-![assets/img2.png](assets/img2.png)
+![assets/img2.png](../assets/img2.png)
 
 Tres aspectos a considerar:
 
-![assets/img3.png](assets/img3.png)
+![assets/img3.png](../assets/img3.png)
 
-Es necesario entender completamente aunque se tengan las mejores practicas de desarrollo o de pruebas para evitar que los defectos y errores se conviertan en re-trabajo y multiplicar los defectos o convertirlo en bola de nieve, aqui uno de los aspectos mas importantes 
+Es fundamental estimar correctamente, comprender completamente el producto, conocer al cliente y mantener una comunicación efectiva con el equipo de desarrollo en los diferentes niveles y subniveles. Esto evita recurrir a reprocesos y permite un trabajo armonioso y adecuado, evitando apagar incendios constantemente.
 
-- Estimar bien
+¡FELICIDADES! 🎉
 
-- Entender el producto
-
-- Saber quien es el cliente
-
-- Comunicacion con el equipo de desarrollo en los diferentes niveles y subniveles para que se pueda trabajar de una manera armoniosa y adecuada. Con esto se evita recurrir en reprocesos y estar apagando incendios
-
-🎉 CONGRATULATIONS ! 🎉
-
-[<< Class 1](../01_Class_Introduction/01_Introduction.md) | [Class 2 >>]()
+[🔙 << Clase 1](../01_Class_Introduction/01_Introduction.md) | [Clase 3 >>](../03_Class/03_Class.md)

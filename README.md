@@ -30,4 +30,5 @@ Este repositorio se distribuye bajo la licencia MIT. Puedes consultar el archivo
 
 ¡A disfrutar del aprendizaje y la mejora continua de la calidad del software!
 
-[Day 1 >>](./01-Fundamentos/README.md)
+
+[Curso Fundamentos-de-pruebas-de-software >>](./01-Fundamentos/README.md) 
