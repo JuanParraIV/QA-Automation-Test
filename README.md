@@ -32,6 +32,10 @@ Este repositorio se distribuye bajo la licencia MIT. Puedes consultar el archivo
 
 
 [Curso Fundamentos-de-pruebas-de-software >>](./01-Fundamentos/README.md)
+
 [Essentials of Software Testing and Quality Assurance >>](./02-Essentials/README.md) 
+
+[Performance Testing Basics >>](./03-Performance/README.md)
+
 
 

@@ -5,6 +5,9 @@
 
 # Performance Testing Life Cycle
 
+<img src="../assets/LifeCycle.png" alt="STLC" width="600" height="300">
+
+
 ## 1. Requirements / Gathering
 ### Purpose
 - Performance testing requirements are identified.
@@ -77,55 +80,70 @@
     - if application is new, use step-up approach.
 - Lot of co-ordination between different teams.
 
-## Quality Management
+## 3. Performance Test Design
 
-Quality management involves coordinated activities to direct and control an organization with regard to quality. It consists of a management system (MS) that establishes policies and objectives to achieve those objectives. A quality management system (QMS) is specifically designed to direct and control an organization with regard to quality.
+### Purpose
+- Creating performance test scripts as per test plan.
+- Validating that the test scripts are working as intended.
+- Get test scripts reviewed.
 
-## Historical Development of Quality Management
+### Approach
+- Test scripts are typically created by Performance Tester.
+- They go through all scenarios documented in performance test plan.
+- Test scripts are prepared based on the requirements.
+    - Recording the test scripts.
+    - Enhancing the test scripts by adding any custom logic, think time, assertions, etc to simulate a real world scenario.
+    - Validating the scripts.
+    - Scripts are debugged if they are not working as expected.
+- Scripts are reviewed and verified by Test Manager or Test Lead.
 
-The development of quality management can be traced through four stages:
-
-1. Quality Inspection (QI)
-2. Quality Control (QC)
-3. Quality Assurance (QA)
-4. Total Quality Management (TQM)
-
-## Quality Assurance
-
-Quality Assurance (QA) refers to planned and systematic activities implemented within a quality system to provide confidence that a product or service will fulfill quality requirements. It involves evaluating the performance and service quality of a product against specified requirements for customers. Quality assurance includes planned activities and a systematic approach to ensure adequate confidence in product and service quality. It encompasses mission, objectives, quality improvement, quality audit, and resource allocation.
-
-## What is Quality Assurance? 
-<img src="../assets/qassurance.png" alt="Quality Assurance" width="400" height="300">
-
-
-## Components of Quality Assurance
-<img src="../assets/component.png" alt="Quality Assurance Components" width="400" height="300">
-
-## Activities of Quality Assurance
-<img src="../assets/activityqassurance.png" alt="Quality Assurance Activities" width="400" height="300">
+### Challenges
+- Unavailabity of performance test environment.
+    - Try to make the script reusable.
+    - Validate the script throughly on performance test environment.
+- Unavailability of 3rd party services or required API's.
+    - Mocking/service virtualization.
 
 
-## Software Quality Assurance
+## 4. Performance Test Execution
 
-Software Quality Assurance (SQA) comprises a set of activities that ensure quality in software engineering processes, ultimately resulting in quality software products. SQA focuses on process-oriented activities that aim to assess and evaluate the processes that produce software products.
+### Purpose
+- Run performance test.
+- Analyze performance test results.
+- Raise a defect in case any performance bottleneck is found.
 
-## Quality Control
+### Approach
+- Performance Tester run the script to generate load on the application.
+    - Load generators are used.
+    - Graphs and metric are monitored while test is running.
+    - Application resource usage is also monitored.
+- At the end of a test run, junk records are cleared.
+- Metrics captured for test run are compared against the test plan.
+- Defect is raised in case a performance bottleneck is found.
+- Root cause analysis is performed by relevant team members.
 
-Quality control is a set of methods used by organizations to achieve quality parameters or goals and continually improve the organization's ability to ensure that a software product meets quality requirements. It involves reviewing and testing phases of the software development life cycle to ensure that products meet specifications and requirements.
+## 5. Performance Test Reporting
 
-<img src="../assets/qualitycontrolprocess.png" alt="Quality Control Processes" width="400" height="300">
+### Purpose
+- Prepare a final performance test report.
+- Provide a Go/No-go decision.
+- Provide performance recommendations.
+- Bring an attention to any performance related risks.
 
+### Approach
+- Test Manager or Test Lead prepares final performance test report with the help of Performance Testers.
+- The document contains:
+    - Details on whether all the NFR's are met in performance testing.
+    - Issued noticed during performance testing.
+    - Performance related risks
+    - Recommendations to improve application performance.
+- The report is then presented to stakeholders and/or client with Go/No-go decision.
 
-## Software Quality Control
-
-Software Quality Control (SQC) is a set of activities that ensure quality in software products. SQC is primarily focused on the review and testing phases of the software development life cycle. The goal of SQC is to ensure that software products meet specified requirements.
-
-## Software Quality Factors
-<img src="../assets/softwarequalityfactors.png" alt="Quality Software Factors" width="400" height="300">
-
-
----
-
+## 6. Performance Tunning
+- Performance tuning may be carried out on the application based on the recommendations in performance test report.
+- These can be application specific or infra specific.
+- If required, performance tests are run again to check if there is an improvement in
+performance.
 
 
 [🔙 << Clase 1](../01_Class_Introduction/01_Introduction.md) | [Clase 3 >>](../03_Class/03_Class.md)

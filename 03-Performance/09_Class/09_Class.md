@@ -2,34 +2,12 @@
 
 [🔙 Volver](../README.md) 
 
-## Clase 9 Estrategia de pruebas
 
-Son aquellas que nos permiten saber por donde comenzar 
+# Workload Modeling
 
-![assets/img20.png](../assets/img20.png)
+## Workload in Performance Testing
 
-### Escenarios y Contextos
+<img src="../assets/EcommerceUserScenario.png" alt="Difference" width="800" height="">
 
-- Seguridad
-
-- Arquitectura
-
-- Performance
-
-- Usabilidad
-
-- Escalabilidad
-
-### Herramienta para organizar ideas
-
-https://mindmup.com 
-
-![assets/img21.png](../assets/img21.png)
-
-### ¿Que problema tenemos?
-
-![assets/img22.png](../assets/img22.png)
-
-🎉 CONGRATULATIONS ! 🎉
 
 [🔙 << Clase 8](../08_Class/08_Class.md) | [Clase 10 >>](../10_Class/10_Class.md)

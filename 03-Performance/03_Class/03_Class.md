@@ -3,50 +3,42 @@
 [🔙 Volver](../README.md)
 
 
-# Fundamental of Software Testing
+# Performance BottleNeck
 
-## What is Software Testing?
+## What is BottleNeck?
+A bottleneck occurs when the capacity of an application or a computer system is limited by a single component, like the neck of a bottle slowing down the overall water flow.
+  - Performance degradation of application due to one or more of application components.
+  - This can happen under certain load conditions.
+  - Performance bottlenecks causes:
+    - Slower response time
+    - Unexpected application behavior
+    - Increase error rate
+## Examples
+- App server supports 500 connections but database server supports only 10 connections.
+  - in this case, database server can become a performance bottleneck.
+- Your application supports 100 concurrent users load.
+- the third party API that your application uses supports 20 concurrent users load.
+  - in this case, the third party API can become a performance bottleneck.
 
-- Software testing is defined as an activity to check whether the actual results match the expected results.
-- It ensures that the software system is defect-free.
-- The key goals of software testing are cost-effectiveness, security, product quality, and customer satisfaction.
+## What Causes Performance BottleNeck?
+- Insufficient hardware resources.
+- Software configuration issues.
+- Poorly written code.
+- Unoptimided databases.
+- Third party services.
 
-Software Testing is a process used to identify:
-- Correctness
-- Completeness
-- Quality of developed software
+## Tracking Performance BottleNecks
 
-Software Testing includes:
-- Set of activities conducted with the intent of finding errors in software.
-- Checking that the product works properly before release to end-users.
+- Tracking performance bottleneck is known as Performance Analysis or BottleNeck Analysis
+- APM (Application Performance Management) tools  
+  - AppDynamics
+  - New Relic
+  - Dynatrace etc.
 
-## Testing
-
-Testing is a critical element of software development life cycles. It is also called software quality control or software quality assurance. The basic goals of testing are validation and verification:
-
-- Validation: Are we building the right product?
-- Verification: Does "X" meet its specification?
-  - "X" can be code, a model, a design diagram, a requirement, etc.
-
-At each stage, we need to verify that the thing we produce accurately represents its specification.
-
-## Terminology
-
-- Error:
-  - Mistake made by an engineer.
-  - Often a misunderstanding of requirements or design specifications.
-
-- Fault:
-  - Manifestation of that error in the code.
-  - What we often call a bug.
-
-- Failure:
-  - Incorrect output.
-  - Program behavior is not proper and may be caused by a fault.
-
-- Testing:
-  - Failures in software.
-  - Debugging attempts to associate failures with faults so that they can be removed from the system.
+- Profiling tools
+  - JConsole
+  - JProfiler
+  - VisualVM etc.
 
 ## Purpose of Software Testing
 

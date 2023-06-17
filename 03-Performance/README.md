@@ -6,13 +6,13 @@
 |-------|-----------|
 |   1   | [Performance Testing Introduction](./01_Class_Introduction/01_Introduction.md) |
 |   2   | [Performance Testing Life Cycle](./02_Class/02_Class.md) |
-|   3   | [Fundamental of Software Testing](./03_Class/03_Class.md) |
-|   4   | [Test Administration - Test Plan and Test Cases](./04_Class/04_Class.md) |
-|   5   | [Core Techniques - White Box testing](./05_Class/05_Class.md) |
-|   6   | [Core Techniques - Black Box testing](./06_Class/06_Class.md) |
-|   7   | [Uses of Software Testing Types](./07_Class/07_Class.md) |
-|   8   | [Defect Management Process](./08_Class/08_Class.md) |
-|   9   | [Case Study](./09_Class/09_Class.md) |
+|   3   | [Performance Bottleneck](./03_Class/03_Class.md) |
+|   4   | [Concurrent Users and Simultaneous Users](./04_Class/04_Class.md) |
+|   5   | [Average Load and Peak Load](./05_Class/05_Class.md) |
+|   6   | [Response Time, Latency and Throughput](./06_Class/06_Class.md) |
+|   7   | [Ramp Up, Ramp Down and Steady State](./07_Class/07_Class.md) |
+|   8   | [Think Time and Pacing](./08_Class/08_Class.md) |
+|   9   | [Workload Modeling](./09_Class/09_Class.md) |
 |   10  | [Cuestionario 1: Overview](./10_Class/10_Class.md) |
 
 
