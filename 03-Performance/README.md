@@ -15,10 +15,9 @@
 |   9   | [Workload Modeling](./09_Class/09_Class.md) |
 |   10  | [Performance Monitoring](./10_Class/10_Class.md) |
 |   11  | [Load Test](./11_Class/11_Class.md) |
-|   11  | [Cuestionario 1: Overview](./11_Class/11_Class.md) |
-|   12  | [Cuestionario 1: Overview](./12_Class/12_Class.md) |
-|   13  | [Cuestionario 1: Overview](./13_Class/13_Class.md) |
-|   14  | [Cuestionario 1: Overview](./14_Class/14_Class.md) |
+|   12  | [Stress Test](./12_Class/12_Class.md) |
+|   13  | [Soak Test](./13_Class/13_Class.md) |
+|   14  | [Spike Test](./14_Class/14_Class.md) |
 
 
 

@@ -1,48 +1,50 @@
-[🔙 << Clase 9](../09_Class/09_Class.md) | [Clase 11 >>](../11_Class/11_Class.md)
+[🔙 << Clase 12](../12_Class/12_Class.md) | [Clase 14 >>](../14_Class/14_Class.md)
 
 [🔙 Volver](../README.md)
 
-## Clase 10 Testing en desarrollo de software
 
-### ¿Que es testing?
+# Soak Test
+## What is Soak Test?
+- Checking application performance under [average load](../05_Class/05_Class.md) conditions
+- Typically run for longer duration (Eg. 4 hours to 48 hours)
+    - Can be run over a weekend
+- Goal is to check if application can sustain continuous load for extended period
+- Also known as Endurance Testing or Longevity Testing
 
-Es la exploración de una idea, aprender a conocer como sucede un flujo, como se generan datos, como se llena un formulario y genere nuevos resultados
+## Soak Test Approach (Planning)
+- Soak test NFR's are referred. The NFR's typically have details like
+    - Expected response time
+    - Average load details
+    - User or TPS load
+- Workload Model is prepared according to these NFR's
 
-### ¿Que es cheking?
+## Soak test Approach (Design & Execution)
+- Soak test scripts are prepared according to Workload Model
+- Soak test is run for certain duration (Eg. 4 to 48 hours)
+    - Steady state (4 to 48 hours)
+    - Ramp up and ramp down periods
+- Metrics are measured during soak test run
+    - Response Time
+    - Errors
+    - TPS
+    - User load
+    - CPU and Memory utilization
+- Errors or unexpected behavior are noted down
 
-Es cuando se sabe que ya sucede algo y se verifica que sigue pasando
+## Soak test NFR's Example
+| NFR ID| Requirement | Acceptance Criteria | Remarks |
+|-------|-----------------|-----------------|-----------------|
+| 1 | User Load | Application should be able to handle 100 concurrent users load| Test should run for 8 hours |
+| 2 | Response Time | Average response time of all the pages should be less than 2 seconds | 90th percentile should not be more than 4 seconds |
+| 3 | Errors | Error rate should not exceed 2% |  |
+| 4 | Transactions per second | More than or equal to 2500 orders should be submitted |  |
+| 5 | Resources utilization | CPU usage should not exceed 60% and memory usage should not exceed 70% , application should remain stable | Applicable for web, app and DB servers |
 
-![assets/img23.png](../assets/img23.png)
+## Common Issues
+- Memory leaks
+- Application crash
+- Slower response time
+- Increased DB resource utilization
+- One or more application components failing or misbehaving
 
-- Solo se ejecutan si ... sucede algo
-
-- Se ejecutan cada que ... libere
-
-- Se ejecutan de manera programada 
-
-### Errores comunes durante la ejecución
-
-![assets/img24.png](../assets/img24.png)
-
-- **Pruebas duplicadas:** Al no tener una buena organización o comunicación con el equipo, la cobertura de pruebas puede ser duplicada, por ejemplo que algún otro miembro ya probó
-
-- **Pruebas similares:** A veces se pueden crear pruebas que tienen que ver con el mismo flujo.
-
-- **Pruebas sin valor agregado:** Aquellas que no están asociadas al negocio, se debe priorizar siempre.
-
-- **Pruebas caducadas:** Se refiere a la tecnología por ejemplo que se esté usando ya que como sabemos se suelen ir actualizando.
-
-Cuando logramos distinguir correctamente entre pruebas y verificación es cuando entra la automatización de pruebas, con ella se usa un software especial para controlar y comparar los resultados obtenidos de los esperados, es entonces una verificación repetitiva y automatizada.
-
-La automatización de pruebas consiste en el uso de software especial para controlar la ejecución de pruebas y la comparación entre los resultados obtenidos y los resultados esperados. 
-
-Sin embaro, se trata de un checking repetitivo y automatizado.
-
-![assets/img25.png](../assets/img25.png)
-
-![assets/img26.png](../assets/img26.png)
-
-
-🎉 CONGRATULATIONS ! 🎉
-
-[🔙 << Clase 9](../09_Class/09_Class.md) | [Clase 11 >>](../11_Class/11_Class.md)
+[🔙 << Clase 12](../12_Class/12_Class.md) | [Clase 14 >>](../14_Class/14_Class.md)

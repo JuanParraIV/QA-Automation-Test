@@ -1,48 +1,49 @@
-[🔙 << Clase 9](../09_Class/09_Class.md) | [Clase 11 >>](../11_Class/11_Class.md)
+[🔙 << Clase 11 >>](../11_Class/11_Class.md) | [Clase 13 >>](../13_Class/13_Class.md)
 
 [🔙 Volver](../README.md)
 
-## Clase 10 Testing en desarrollo de software
 
-### ¿Que es testing?
+# Stress Test
+## What is Stress Test?
+- Checking application performance under extreme load (load beyond regular) conditions
+- System is pushed past the limit of available resources to check how the application behaves
+- Applied load can be 150% to 500% of peak load in stress test
 
-Es la exploración de una idea, aprender a conocer como sucede un flujo, como se generan datos, como se llena un formulario y genere nuevos resultados
+## Stress test approach (Planning)
+- Stress test NFR's are referred. The NFR's typically have details like
+    - Expected response time
+    - User or TPS load
+- Workload Model is prepared according to these NFR's
+- Stress test scripts are prepared according to workload model
+- Stress test is run for centain duration (1 or 2 hours)
+    - Steady state (1 or 2 hours)
+    - Ramp up and ramp down periods
+- Metrics are measured during stress test run
+    - Response Time
+    - Erros
+    - TPS
+    - User Load
+    - CPU and Memory utilization
+- Errors or unexpected behavior are noted down
 
-### ¿Que es cheking?
+## Sample Stress test NFR's
+| NFR ID| Requirement | Acceptance Criteria | Remarks |
+|-------|-----------------|-----------------|-----------------|
+| 1 | User Load | Application should be able to handle 200 concurrent users load| 200% of peak load |
+| 2 | Response Time | Average response time of all the pages should be less than 3 seconds | 90th percentile should be less than 4 seconds |
+| 3 | Errors | Error rate should not exceed 5% |  |
+| 4 | Transactions per second | 700 orders should be submitted in one hour |  |
+| 5 | Resources utilization | if CPU usage and memory usage should exceeds 90%, application should remain stable | Applicable for web, app and DB servers |
 
-Es cuando se sabe que ya sucede algo y se verifica que sigue pasando
+## User Graph
+<img src="../assets/RampGraph.png" alt="Difference" width="800" height="">
 
-![assets/img23.png](../assets/img23.png)
+## Common Issues
+- Application crash
+- Increased error  rate after certain load
+- Slower response time
+- Increased resource utilization
+- One or mode application components failing or misbehaving
+- Any specific performance issue
 
-- Solo se ejecutan si ... sucede algo
-
-- Se ejecutan cada que ... libere
-
-- Se ejecutan de manera programada 
-
-### Errores comunes durante la ejecución
-
-![assets/img24.png](../assets/img24.png)
-
-- **Pruebas duplicadas:** Al no tener una buena organización o comunicación con el equipo, la cobertura de pruebas puede ser duplicada, por ejemplo que algún otro miembro ya probó
-
-- **Pruebas similares:** A veces se pueden crear pruebas que tienen que ver con el mismo flujo.
-
-- **Pruebas sin valor agregado:** Aquellas que no están asociadas al negocio, se debe priorizar siempre.
-
-- **Pruebas caducadas:** Se refiere a la tecnología por ejemplo que se esté usando ya que como sabemos se suelen ir actualizando.
-
-Cuando logramos distinguir correctamente entre pruebas y verificación es cuando entra la automatización de pruebas, con ella se usa un software especial para controlar y comparar los resultados obtenidos de los esperados, es entonces una verificación repetitiva y automatizada.
-
-La automatización de pruebas consiste en el uso de software especial para controlar la ejecución de pruebas y la comparación entre los resultados obtenidos y los resultados esperados. 
-
-Sin embaro, se trata de un checking repetitivo y automatizado.
-
-![assets/img25.png](../assets/img25.png)
-
-![assets/img26.png](../assets/img26.png)
-
-
-🎉 CONGRATULATIONS ! 🎉
-
-[🔙 << Clase 9](../09_Class/09_Class.md) | [Clase 11 >>](../11_Class/11_Class.md)
+[🔙 << Clase 11 >>](../11_Class/11_Class.md) | [Clase 13 >>](../13_Class/13_Class.md)

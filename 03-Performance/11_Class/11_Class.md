@@ -1,4 +1,4 @@
-[🔙 << Clase 9](../09_Class/09_Class.md) | [Clase 11 >>](../11_Class/11_Class.md)
+[🔙 << Clase 10](../10_Class/10_Class.md) | [Clase 12 >>](../12_Class/12_Class.md)
 
 [🔙 Volver](../README.md)
 
@@ -30,4 +30,22 @@
     - CPU and Memori utilization
 - Errors or unexpected behavior are noted down
 
-[🔙 << Clase 9](../09_Class/09_Class.md) | [Clase 11 >>](../11_Class/11_Class.md)
+## Load test NFR's Example
+| NFR ID| Requirement | Acceptance Criteria | Remarks |
+|-------|-----------------|-----------------|-----------------|
+| 1 | User Load | Application should be able to handle 100 concurrent users load|  |
+| 2 | Response Time | Average response time of all the pages should be less than 2 seconds | 100th percentile should not be more than 4 seconds |
+| 3 | Errors | Error rate should not exceed 3% |  |
+| 4 | Transactions per second | 500 orders should be submitted in one hour |  |
+| 5 | Resources utilization | CPU usage should not exceed 70% and memory usage should not exceed 80% | Applicable for web, app and DB servers |
+
+## User Graph
+<img src="../assets/RampGraph.png" alt="Difference" width="800" height="">
+
+## Common issues
+- Slower response time
+- Increased error rate after certain load
+- Increased resource utilization
+- One or more application components failing or misbehaving
+
+[🔙 << Clase 10](../10_Class/10_Class.md) | [Clase 12 >>](../12_Class/12_Class.md)
