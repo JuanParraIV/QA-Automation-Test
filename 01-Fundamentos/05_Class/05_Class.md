@@ -35,6 +35,6 @@ Dentro de las etapas existe una planificacion estandar que van a variar respecto
 ![assets/img14.png](../assets/img14.png)
 
 
-🎉 CONGRATULATIONS ! 🎉
+
 
 [🔙 << Clase 4](../04_Class/04_Class.md) | [Clase 6 >>](../06_Class/06_Class.md)

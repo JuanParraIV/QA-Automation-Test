@@ -25,7 +25,7 @@ Esta parte incluye que estás tomando en cuenta el contexto, no es lo mismo tene
 Si ya probamos que nuestro elemento o acción funcionan, estás pruebas nos aseguran con o sin el cliente que tiene cubierta todas las necesidades requeridas en el software. Es la última verificación.
 
 
-🎉 CONGRATULATIONS ! 🎉
+
 
 [🔙 << Clase 11](../11_Class/11_Class.md) | [Clase 13 >>](../13_Class/13_Class.md)
 

@@ -2,41 +2,26 @@
 
 [🔙 Volver](../README.md)
 
-# Clase 27 Automatización de pruebas
 
-![assets/img62.png](../assets/img62.png)
+# Clase 28 Gherkin
 
-En esta unidad vamos a conocer las bases para la automatización de pruebas y podemos automatizar las siguientes tipos de pruebas.
+**Gherkin es un lenguaje de texto plano con estructura, usamos palabras que no son comandos pero permiten entender en un modo de pseudocódigo qué es lo que se tiene que hacer.**
 
+**Esta diseñado para ser fácil de aprender y ser entendido por todos.**
 
-- **Pruebas unitarias:** Tienen que ver con un pedazo de código que el desarrollador esta codificando, pero no tienen que ver con todo el flujo de negocio y proceso del software.
+- **Ventajas**
+    - Simple
+    - Palabras claves o keywords
+    - Estandariza los casos de uso
+    - Reduce el tiempo de diseño
 
-- **Pruebas de integración:** Cómo hacemos que el conjunto del equipo que libera pedacitos de software funcionen juntos y no hagan defectos adicionales.
+![assets/img65.png](../assets/img65.png)
 
-- **Pruebas funcionales o de aceptación:** Estas pruebas no necesariamente forman parte de los requerimientos especificados por el cliente, una recomendación para automatizar estas pruebas es que deban cumplir con los requerimientos dados por el cliente.
+**Ejemplo de uso de Gherkin**
 
-- **Test Driven Development:** 
-
-    ![assets/img63.png](../assets/img63.png)
-
-    El desarrollo va a estar enfocado haciendo primera las pruebas y después el código. Haciendo que el desarollo sea muy específico con la mayor cobertura y no pongamos líneas de código que no van a funcionar o no se usan.
-
-    - Escribimos una prueba
-
-    - Ejecutamos la prueba: Falla
-
-    - Se escribe el código
-
-    - Ejecutamos la prueba: Pasa
-
-- **Behavior Driven Development:** 
-
-    ![assets/img64.png](../assets/img64.png)
-
-    Si primero vamos a escribir las pruebas, debemos hacerlo bien y usando un lenguaje sencillo, simple para que la sirva al equipo para entender qué es lo que queremos hacer.
+![assets/img66.png](../assets/img66.png)
 
 
-🎉 CONGRATULATIONS ! 🎉
 
 [🔙 << Clase 27](../27_Class/27_Class.md)
 

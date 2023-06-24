@@ -51,7 +51,7 @@ Los modelos de caja gris es donde se realizan integraciones, viene siendo un pun
 
 
 
-🎉 CONGRATULATIONS ! 🎉
+
 
 [🔙 << Clase 15](../15_Class/15_Class.md) | [Clase 17 >>](../17_Class/17_Class.md)
 

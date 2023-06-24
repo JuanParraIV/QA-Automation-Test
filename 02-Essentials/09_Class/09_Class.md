@@ -30,6 +30,6 @@ https://mindmup.com
 
 ![assets/img22.png](../assets/img22.png)
 
-🎉 CONGRATULATIONS ! 🎉
+
 
 [🔙 << Clase 8](../08_Class/08_Class.md) | [Clase 10 >>](../10_Class/10_Class.md)

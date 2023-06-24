@@ -25,7 +25,7 @@ Es probar nuevamente un componente ya probado para verificar que no ha sido impa
 Estas serian la clasificacion de actividades de cuando se prueba en el Frontend, Backend o la estructura, en base a cambios, nuevas caracteristicas o cuando se estan arreglando defectos
 
 
-🎉 CONGRATULATIONS ! 🎉
+
 
 [🔙 << Clase 12](../12_Class/12_Class.md) | [Clase 14 >>](../14_Class/14_Class.md)
 

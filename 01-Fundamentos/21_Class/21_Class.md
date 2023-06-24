@@ -33,7 +33,7 @@ El desempeño del testing, Que circunstancias permiten o no realizar el trabajo,
 https://www.easyredmine.com/
 
 
-🎉 CONGRATULATIONS ! 🎉
+
 
 [🔙 << Clase 20](../20_Class/20_Class.md) | [Clase 22 >>](../22_Class/22_Class.md)
 

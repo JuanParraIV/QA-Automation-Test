@@ -36,7 +36,7 @@ Debe tener:
 
 
 
-🎉 CONGRATULATIONS ! 🎉
+
 
 [🔙 << Clase 14](../14_Class/14_Class.md) | [Clase 16 >>](../16_Class/16_Class.md)
 

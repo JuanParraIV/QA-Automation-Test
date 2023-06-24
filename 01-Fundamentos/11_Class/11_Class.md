@@ -25,7 +25,7 @@ Involucra a todos, no solo el tester, todos en el equipo son tester. La persona 
 La finalidad de este es que entre todos puedan pensar como hacer pruebas teniendo distintos entornos y ambientes que se puedan llegar a presentar en una aplicacion cualquier contando con los detalles mas minimos para que el producto tenga todas las caracteristicas donde si hay un sesgo de error no se note con la funcionalidad del producto.
 
 
-🎉 CONGRATULATIONS ! 🎉
+
 
 [🔙 << Clase 10](../10_Class/10_Class.md) | [Clase 12 >>](../12_Class/12_Class.md)
 

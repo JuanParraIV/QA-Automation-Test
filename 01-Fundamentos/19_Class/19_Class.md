@@ -22,7 +22,7 @@ Cuando el esfuerzo en la calidad se enfoca y se distribuye en roles y responsabi
 
 
 
-🎉 CONGRATULATIONS ! 🎉
+
 
 [🔙 << Clase 18](../18_Class/18_Class.md) | [Clase 20 >>](../20_Class/20_Class.md)
 

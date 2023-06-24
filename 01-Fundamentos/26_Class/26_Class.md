@@ -37,7 +37,7 @@ Se procura actualizar la documentación:
 - Plan de pruebas
 
 
-🎉 CONGRATULATIONS ! 🎉
+
 
 [🔙 << Clase 25](../25_Class/25_Class.md) | [Clase 27 >>](../27_Class/27_Class.md)
 

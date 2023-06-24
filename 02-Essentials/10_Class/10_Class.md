@@ -43,6 +43,6 @@ Sin embaro, se trata de un checking repetitivo y automatizado.
 ![assets/img26.png](../assets/img26.png)
 
 
-🎉 CONGRATULATIONS ! 🎉
+
 
 [🔙 << Clase 9](../09_Class/09_Class.md) | [Clase 11 >>](../11_Class/11_Class.md)

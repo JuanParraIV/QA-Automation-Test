@@ -38,7 +38,7 @@
 
 
 
-🎉 CONGRATULATIONS ! 🎉
+
 
 [🔙 << Clase 16](../16_Class/16_Class.md) | [Clase 18 >>](../18_Class/18_Class.md)
 

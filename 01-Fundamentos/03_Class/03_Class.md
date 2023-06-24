@@ -46,6 +46,6 @@ y cada una de este tipo de industrias lleva diferentes tipos de pruebas
 
 No solo se deben implementar certificaciones en las empresas porque muchas veces esto no significa que cumplan con los estandares de calidad, se debe velar por cumplir y mantener estandares que promuevan el buen desarrollo de la empresa
 
-🎉 CONGRATULATIONS ! 🎉
+
 
 [🔙 << Clase 2](../02_Class/02_Class.md) | [Clase 4 >>](../04_Class/04_Class.md)

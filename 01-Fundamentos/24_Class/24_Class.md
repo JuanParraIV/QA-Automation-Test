@@ -37,7 +37,7 @@ se deben observar:
 - Estándares de compilación
 - Verificación sintáctica y lógica
 
-🎉 CONGRATULATIONS ! 🎉
+
 
 [🔙 << Clase 23](../23_Class/23_Class.md) | [Clase 25 >>](../25_Class/25_Class.md)
 

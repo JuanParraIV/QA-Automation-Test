@@ -51,6 +51,6 @@ El ciclo de vida básico de un software consta de los siguientes procedimiento
 
 Si hacemos las pruebas durante cada fase del ciclo de vida del software tendremos al final del ciclo un producto validado y robusto de acuerdo a las necesidades del cliente
 
-🎉 CONGRATULATIONS ! 🎉
+
 
 [🔙 << Clase 3](../03_Class/03_Class.md) | [Clase 5 >>](../05_Class/05_Class.md)

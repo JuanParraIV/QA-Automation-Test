@@ -86,7 +86,7 @@ Es cuestionar que elementos a lo mejor no esta incluyendo el cliente y el tester
 ![assets/img34.png](../assets/img34.png)
 
 
-🎉 CONGRATULATIONS ! 🎉
+
 
 [🔙 << Clase 13](../13_Class/13_Class.md) | [Clase 15 >>](../15_Class/15_Class.md)
 

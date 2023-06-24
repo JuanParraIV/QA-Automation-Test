@@ -52,6 +52,6 @@ Los costos tambien pueden llegar a incrementar
 
 - Pruebas de aceptacion donde el usuario final acepta el producto requerido pero se debe tener que cuenta que antes de entregar al cliente final se tuvieron que haber hecho todas las pruebas posibles en las anteriores etapas
 
-🎉 CONGRATULATIONS ! 🎉
+
 
 [🔙 << Clase 7](../07_Class/07_Class.md) | [Clase 9 >>](../09_Class/09_Class.md)

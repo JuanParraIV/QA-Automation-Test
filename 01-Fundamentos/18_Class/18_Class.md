@@ -13,7 +13,7 @@
 - **Ingeniero de calidad:** Se dedica a la parte del proceso, es quien se encarga de establecer las políticas, mantener involucrados a los equipos, alineados a las prioridades del negocio; además que verifica que todo esto se cumpla sobre todo para la entrega del cliente.
 
 
-🎉 CONGRATULATIONS ! 🎉
+
 
 [🔙 << Clase 17](../17_Class/17_Class.md) | [Clase 19 >>](../19_Class/19_Class.md)
 

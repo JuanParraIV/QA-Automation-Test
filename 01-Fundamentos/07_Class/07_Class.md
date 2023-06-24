@@ -57,6 +57,6 @@ Soluciones de estrategias de calidad.
 ![assets/img17.png](../assets/img17.png)
 
 
-🎉 CONGRATULATIONS ! 🎉
+
 
 [🔙 << Clase 6](../06_Class/06_Class.md) | [Clase 8 >>](../08_Class/08_Class.md)

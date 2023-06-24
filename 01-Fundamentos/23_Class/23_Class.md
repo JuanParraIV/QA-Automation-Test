@@ -39,7 +39,7 @@ Tambien se pueden añadir campos de ser necesarios a la plantilla de reporte par
 ![assets/img57.png](../assets/img57.png)
 
 
-🎉 CONGRATULATIONS ! 🎉
+
 
 [🔙 << Clase 22](../22_Class/22_Class.md) | [Clase 24 >>](../24_Class/24_Class.md)
 

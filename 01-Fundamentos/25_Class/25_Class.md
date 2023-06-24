@@ -32,7 +32,7 @@ Deben ir cambiando de ser reactivas a ser preventivas. Si ya podemos observar a 
     4. Establecer los datos de prueba
     5. Comenzar a depurar
 
-🎉 CONGRATULATIONS ! 🎉
+
 
 [🔙 << Clase 24](../24_Class/24_Class.md) | [Clase 26 >>](../26_Class/26_Class.md)
 
