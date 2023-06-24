@@ -20,27 +20,17 @@ Deben ir cambiando de ser reactivas a ser preventivas. Si ya podemos observar a 
 
 - **Reportes:** Observar anomalías, acelerar el tiempo de respuesta, prevenir ataques o fallas.
 
-Tenemos Fase 1 para encontrar el error
-
-Fase2 para corregir el error
+### Tenemos Fase 1 para encontrar el error y Fase2 para corregir el error
 
 - **Fase 1: Pasos para depurar:**
-
-    - Ir al módulo que falla
-
-    - Establecer breakpoints
-
+    1. Ir al módulo que falla
+    2. Establecer breakpoints:
         - En asignacion de valores
-
         - Procesamiento de valores
-
         - Cambio de estados
-
-    - Diseñar una matrix de pruebas
-
-    - Establecer los datos de prueba
-
-    - Comenzar a depurar
+    3. Diseñar una matrix de pruebas
+    4. Establecer los datos de prueba
+    5. Comenzar a depurar
 
 🎉 CONGRATULATIONS ! 🎉
 
