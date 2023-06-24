@@ -24,14 +24,17 @@ Aunque se realice depuración existe probabilidad de encontrar defectos
 
 ![assets/img58.png](../assets/img58.png)
 
+![assets/img67.png](../assets/img67.png)
+- Algunos elementos no se acomodan correctamente en tu página web
+- Que ejecutas alguna accion pero NO recibes mensaje ni de error ni de confirmacion
+- Recibes mensajes de confirmacion pero los datos no se actualizan
+
 ![assets/img59.png](../assets/img59.png)
 
 se deben observar:
 
 - Mensajes de advertencia
-
 - Estándares de compilación
-
 - Verificación sintáctica y lógica
 
 🎉 CONGRATULATIONS ! 🎉
